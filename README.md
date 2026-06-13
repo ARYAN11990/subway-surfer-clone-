@@ -34,6 +34,7 @@ A lightweight, browser-based 3D endless runner game inspired by Subway Surfers. 
 * `Swipe Down` : Slide[cite: 1]
 * `Tap` : Quick Jump[cite: 1]
 
+
 ## 🚀 Installation & Running
 
 Since the entire game is contained within a single file[cite: 1], there is no complex setup required:
@@ -45,34 +46,34 @@ Since the entire game is contained within a single file[cite: 1], there is no co
 2. Navigate to the project directory.
 
 3. Simply open index.html in any modern web browser to start playing!
+```
 
 
-🛠️ Technical Architecture
-The game is structured into several modular JavaScript classes within the main file[cite: 1]:
+## 🛠️ Technical Architecture
 
-Renderer & Camera: Handles HTML5 Canvas 2D context and projects 3D coordinates (x, y, z) into 2D screen space (x, y, scale)[cite: 1].
+*The game is structured into several modular JavaScript classes within the main file[cite: 1]:
 
-Player: Manages lane switching, jumping physics, sliding states, and 3D limb rendering[cite: 1].
+*Renderer & Camera: Handles HTML5 Canvas 2D context and projects 3D coordinates (x, y, z) into 2D screen space (x, y, scale)[cite: 1].
 
-TrackSystem: Infinitely generates the environment, including grounds, rails, walls, and decorative buildings[cite: 1].
+*Player: Manages lane switching, jumping physics, sliding states, and 3D limb rendering[cite: 1].
 
-ObstacleManager & CoinManager: Spawns and recycles barriers, moving trains, and coins based on distance traveled, utilizing AABB collision detection[cite: 1].
+*TrackSystem: Infinitely generates the environment, including grounds, rails, walls, and decorative buildings[cite: 1].
 
-InputHandler: Normalizes keyboard and touch/swipe inputs for seamless gameplay across devices[cite: 1].
+*ObstacleManager & CoinManager: Spawns and recycles barriers, moving trains, and coins based on distance traveled, utilizing AABB collision detection[cite: 1].
 
-🤝 Contributing
+*InputHandler: Normalizes keyboard and touch/swipe inputs for seamless gameplay across devices[cite: 1].
+
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check issues page if you want to contribute.
 
-📝 License
+## 📝 License
 This project is open-source and available under the MIT License.
 
-1. Clone the repository:
-```bash
-   git clone [https://github.com/yourusername/subway-rush-clone.git](https://github.com/yourusername/subway-rush-clone.git)
+## 👨‍💻 Author
 
-2. Navigate to the project directory.
+Aryan Parmar
 
-3. Simply open index.html in any modern web browser to start playing!
+If you like this project, consider giving it a ⭐ on GitHub.
 
 
